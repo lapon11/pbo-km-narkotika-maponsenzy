@@ -32,3 +32,38 @@ public class Putusan {
         this.vonisDenda = 0.0;
         this.namaHakim = "";
     }
+    public Putusan(String nomorPerkara, String pengadilan, String tanggalPutusan,
+                   String namaTerdakwa, int umurTerdakwa, String jenisNarkotika,
+                   double beratBarangBukti, String pasalDilanggar, String peranTerdakwa,
+                   int vonisHukuman, double vonisDenda, String namaHakim) {
+        this.nomorPerkara = nomorPerkara;
+        this.pengadilan = pengadilan;
+        this.tanggalPutusan = tanggalPutusan;
+        this.namaTerdakwa = namaTerdakwa;
+        this.umurTerdakwa = umurTerdakwa;
+        this.jenisNarkotika = jenisNarkotika;
+        this.beratBarangBukti = beratBarangBukti;
+        this.pasalDilanggar = pasalDilanggar;
+        this.peranTerdakwa = peranTerdakwa;
+        this.vonisHukuman = vonisHukuman;
+        this.vonisDenda = vonisDenda;
+        this.namaHakim = namaHakim;
+        
+        // Menggunakan operator assignment increment versi berbeda
+        jumlahDibuat = jumlahDibuat + 1;
+    }
+
+    // Mengubah penulisan gaya inline getter setter ke baris baru agar beda secara visual
+    public String getNomorPerkara() { 
+        return this.nomorPerkara; 
+    }
+    public void setNomorPerkara(String nomorPerkara) { 
+        this.nomorPerkara = nomorPerkara; 
+    }
+
+    public String getPengadilan() { 
+        return this.pengadilan; 
+    }
+    public void setPengadilan(String pengadilan) { 
+        this.pengadilan = pengadilan; 
+    }
