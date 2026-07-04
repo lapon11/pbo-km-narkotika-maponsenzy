@@ -105,4 +105,40 @@ public class Putusan {
             this.beratBarangBukti = beratBarangBukti;
         }
     }
+public String getPasalDilanggar() { 
+        return this.pasalDilanggar; 
+    }
+    public void setPasalDilanggar(String pasalDilanggar) { 
+        this.pasalDilanggar = pasalDilanggar; 
+    }
 
+    public String getPeranTerdakwa() { 
+        return this.peranTerdakwa; 
+    }
+    public void setPeranTerdakwa(String peranTerdakwa) { 
+        this.peranTerdakwa = peranTerdakwa; 
+    }
+
+    public int getVonisHukuman() { 
+        return this.vonisHukuman; 
+    }
+    public void setVonisHukuman(int vonisHukuman) {
+        if (vonisHukuman >= 0) {
+            this.vonisHukuman = vonisHukuman;
+        }
+    }
+
+    public double getVonisDenda() { 
+        return this.vonisDenda; 
+    }
+    public void setVonisDenda(double vonisDenda) {
+        if (vonisDenda >= 0) {
+            this.vonisDenda = vonisDenda;
+        }
+    }
+
+    public String getNamaHakim() { 
+        return this.namaHakim; 
+    }
+    public void setNamaHakim(String namaHakim) { 
+        this.namaHakim = namaHakim; 
