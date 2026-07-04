@@ -67,3 +67,42 @@ public class Putusan {
     public void setPengadilan(String pengadilan) { 
         this.pengadilan = pengadilan; 
     }
+    public String getTanggalPutusan() { 
+        return this.tanggalPutusan; 
+    }
+    public void setTanggalPutusan(String tanggalPutusan) { 
+        this.tanggalPutusan = tanggalPutusan; 
+    }
+
+    public String getNamaTerdakwa() { 
+        return this.namaTerdakwa; 
+    }
+    public void setNamaTerdakwa(String namaTerdakwa) { 
+        this.namaTerdakwa = namaTerdakwa; 
+    }
+
+    public int getUmurTerdakwa() { 
+        return this.umurTerdakwa; 
+    }
+    public void setUmurTerdakwa(int umurTerdakwa) {
+        if (umurTerdakwa > 0) {
+            this.umurTerdakwa = umurTerdakwa;
+        }
+    }
+
+    public String getJenisNarkotika() { 
+        return this.jenisNarkotika; 
+    }
+    public void setJenisNarkotika(String jenisNarkotika) { 
+        this.jenisNarkotika = jenisNarkotika; 
+    }
+
+    public double getBeratBarangBukti() { 
+        return this.beratBarangBukti; 
+    }
+    public void setBeratBarangBukti(double beratBarangBukti) {
+        if (beratBarangBukti > 0) {
+            this.beratBarangBukti = beratBarangBukti;
+        }
+    }
+
