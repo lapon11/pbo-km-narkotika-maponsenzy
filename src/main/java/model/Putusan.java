@@ -142,3 +142,21 @@ public String getPasalDilanggar() {
     }
     public void setNamaHakim(String namaHakim) { 
         this.namaHakim = namaHakim; 
+    }
+
+    public static int getJumlahDibuat() {
+        return jumlahDibuat;
+    }
+
+    public void tampilkan() {
+        // Memanfaatkan printf sebagai pengganti konkatenasi string biasa (+)
+        System.out.printf("%s | %s | %s\n", this.nomorPerkara, this.namaTerdakwa, this.jenisNarkotika);
+    }
+
+    public void tampilkan(boolean detail) {
+        if (detail) {
+            System.out.println("Nomor Perkara   : " + this.nomorPerkara);
+            System.out.println("Pengadilan      : " + this.pengadilan);
+            System.out.println("Tanggal Putusan : " + this.tanggalPutusan);
+            System.out.println("Nama Terdakwa   : " + this.namaTerdakwa + " (" + this.umurTerdakwa + " tahun)");
+            System.out.println("Jenis Narkotika : " + this.jenisNarkotika);
