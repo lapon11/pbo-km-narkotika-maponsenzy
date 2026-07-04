@@ -57,3 +57,19 @@ public class KnowledgeRepository {
         return hasil;
     }
 
+    public boolean hapus(String nomor) {
+        Putusan target = this.cariByNomor(nomor);
+        if (target == null) {
+            return false;
+        }
+        return this.daftarPutusan.remove(target);
+    }
+
+    public ArrayList<Putusan> getDaftarSemua() {
+        return this.daftarPutusan;
+    }
+
+    public int getTotalData() {
+        return this.daftarPutusan.size();
+    }
+
