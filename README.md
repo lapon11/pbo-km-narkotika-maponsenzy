@@ -50,7 +50,6 @@ Setelah proses kompilasi sukses, jalankan aplikasi dari posisi folder utama (pro
 bash
 java app.Main
 
-
 Jalur Pintas (Menggunakan IDE)
 1) Buat projek baru dan letakkan folder-folder package di atas ke dalam direktori utama kode sumber (src).
 2) Buka file Main.java di dalam folder package app.
