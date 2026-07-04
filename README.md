@@ -4,7 +4,7 @@ Aplikasi ini bernama “KMS (Knowledge Management System) Putusan Narkotika”. 
 
 Tujuan utama dari sistem ini adalah untuk mengelola, menyaring (filter), mengarsipkan, serta menghitung analisis statistik data putusan pengadilan terkait kasus narkotika secara dinamis di dalam memori komputer.
 
-1. Cara Kompilasi 
+2. Cara Kompilasi 
 
 Proses kompilasi manual menggunakan Terminal/Command Prompt mengharuskan struktur folder Anda sesuai dengan nama deklarasi package pada kode.
 
@@ -43,7 +43,7 @@ javac app/Main.java controller/KnowledgeController.java model/.java util/.java v
 
 Catatan: Jika berhasil, perintah di atas tidak akan memunculkan teks pesan apa pun, namun akan menciptakan file biner berkstensi .class di samping setiap file .java.
 
-1. Cara Menjalankan (Running)
+3. Cara Menjalankan (Running)
 
 Setelah proses kompilasi sukses, jalankan aplikasi dari posisi folder utama (projek-kms) menggunakan perintah java diikuti dengan nama package dan kelas utamanya:
 
@@ -52,10 +52,9 @@ java app.Main
 
 
 Jalur Pintas (Menggunakan IDE)
-
-1. Buat projek baru dan letakkan folder-folder package di atas ke dalam direktori utama kode sumber (src).
-2. Buka file Main.java di dalam folder package app.
-3. Klik tombol hijau berikon Run atau klik kanan lalu pilih Run 'Main.main()'.
+1) Buat projek baru dan letakkan folder-folder package di atas ke dalam direktori utama kode sumber (src).
+2) Buka file Main.java di dalam folder package app.
+3) Klik tombol hijau berikon Run atau klik kanan lalu pilih Run 'Main.main()'.
 
 4. Link Youtube
 https://youtu.be/xF1JEfaCnsQ?si=uTtsCr-X9ZIw5-CL
